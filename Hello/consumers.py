@@ -26,7 +26,7 @@ class ChatConsumer(WebsocketConsumer):
             'message': message
         }))
 
-    # 心跳检测
+
     def heart_beat(self):
         date = time.strftime('%Y-%m-%d %H:%M:%S')
         # print(date)
